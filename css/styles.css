@@ -23,3 +23,75 @@
     height: 100%;
 }
 
+#art{padding:50px 15px 20px 15px;border-bottom:1px solid #dcd9d9;text-align:center}#art h2{color:#374054;margin-bottom:50px}.art-block{max-width:700px;margin:0 auto 30px auto;padding:15px;border:1px solid #dcd9d9;text-align:left}.art-block h3{font-weight:500;float:left;margin:0;color:#374054}.art-block span{color:#74808a;float:right}.art-block h4{color:#74808a;clear:both;font-weight:500;margin:0 0 15px 0}.art-block p,.art-block ul{margin:0;color:#74808a;font-size:0.9em}.art-block ul{padding:0 0 0 15px}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF FOUR   ============================================================================= */
+
+	
+.span_4_of_4 {
+	width: 100%; 
+}
+
+.span_3_of_4 {
+	width: 74.6%; 
+}
+
+.span_2_of_4 {
+	width: 49.2%; 
+}
+
+.span_1_of_4 {
+	width: 23.8%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_4_of_4 {
+		width: 100%; 
+	}
+	.span_3_of_4 {
+		width: 100%; 
+	}
+	.span_2_of_4 {
+		width: 100%; 
+	}
+	.span_1_of_4 {
+		width: 100%; 
+	}
+}
+
+.art_thumb img{
+    max-width: 100%;
+    max-height: 100%;
+}
