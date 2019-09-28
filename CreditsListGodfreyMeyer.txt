@@ -206,8 +206,7 @@ SUPERSTATION
 SYFY 
 TELEMUNDO 
 TLC 
-TRAVEL 
-TRAVEL 
+TRAVEL  
 Universal HD 
 USA NETWORk 
 VH1 CLASSIC
@@ -265,7 +264,6 @@ Crystal Gayle
 Roy Clark
 Ferlin Husky
 Glen Campbell	
-  
 
 INTERNATIONAL BROADCASTS :
 
